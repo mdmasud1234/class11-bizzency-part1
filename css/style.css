@@ -1,0 +1,80 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{  
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,h2{
+    font-family: 'Abril Fatface', serif;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* common css End */
+/* top_bar css section start  */
+#top_bar{
+    background-color: #0f2f44;
+}
+
+
+#top_bar p{
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* top_bar css section  End   */
+/* primary css stsrt */
+#primary_nav .row{
+    align-items: center;
+}
+#primary_nav ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-transform: capitalize;
+    padding: 40px 18px;
+    transition: .6s;
+}
+#primary_nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#primary_nav ul li button{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background: none;
+    margin-left: 20px;
+}
+#primary_nav ul li button:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+/* primary css stsrt */
